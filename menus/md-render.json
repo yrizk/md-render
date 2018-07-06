@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle md-render",
+        "command": "md-render:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "md-render",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "md-render:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

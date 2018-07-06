@@ -1,0 +1,18 @@
+{
+  "name": "md-render",
+  "main": "./lib/md-render",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "md-render:toggle"
+  },
+  "repository": "https://github.com/atom/md-render",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0"
+  }
+}
